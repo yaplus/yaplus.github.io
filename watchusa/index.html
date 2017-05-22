@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>ウオッチうさ？？ ぴょん'sとらんぽりん</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="ポイッ！てうさぎを投げ出さない！" />
+    <meta name="keywords" content="yaplus,ごちうさ部,ウオッチうさ,ウォッチうさ,ゲームウォッチ,ぴょん'sとらんぽりん,ごちうさ,ご注文はうさぎですか？" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no">
+    <link href="./css/font.css" rel="stylesheet" type="text/css">
+    <link href="./css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="./css/mobile.css" rel="stylesheet" type="text/css" media="(max-width: 480px)">
+    <link href="./css/index.css" rel="stylesheet" type="text/css" media="(min-width: 480px)">
+    <link rel="apple-touch-icon-precomposed" href="./assets/apple-touch-icon.png">
+  </head>
+  <body>
+    <canvas id="rabbit"></canvas>
+    <div id="watch">
+      <div class="base">
+        <img src="./assets/logo.png" id="logo">
+        <div id="option">
+          <img src="./assets/reset.png" id="resetButton">
+          <img src="./assets/tweet.png" id="tweetButton">
+        </div>
+
+        <canvas id="screen"></canvas>
+
+        <div id="plate"></div>
+
+        <img src="./assets/frame.png" id="flame">
+
+        <div id="screenButton">
+          <div id="leftScreen"></div>
+          <div id="rightScreen"></div>
+        </div>
+
+        <div id="watchButton">
+          <img src="./assets/left.png" id="leftButton">
+          <img src="./assets/right.png" id="rightButton">
+        </div>
+      </div>
+    </div>
+
+    <div class="base">
+      <footer>
+        ☕︎ ぴょん'sとらんぽりん ☕︎<br>
+        方向キー(スマートフォンではゲーム画面の左右か操作ボタンをタップ)でチノとココアを左右に移動させてウサギが落ちないように受け止めましょう。<br>
+        ゲームオーバーになった時は右上のツイートボタンでスコアをツイートしたり、リセットボタンかスペースキーを押してもう一度挑戦できます。<br>
+        制作：<a href="https://twitter.com/yaplus">@yaplus</a> on <a href="http://yaplus.jp/">yaplus.jp</a><br>
+        ゲーム中のフォントには <a href="https://twitter.com/keshinomi_88pro">けしかんさん</a> の <a href="http://www.keshikan.net/fonts.html">DSEG</a> を使用しています。<br>
+      </footer>
+    </div>
+
+    <script src="js/Asset.js"></script>
+    <script src="js/Timer.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/Over.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

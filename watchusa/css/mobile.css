@@ -1,0 +1,150 @@
+@charset "UTF-8";
+body {
+  background-color: #863036;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+#rabbit {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+#watch {
+  /* 下層レイヤ部分のコンテンツ */
+  position: relative;
+  text-align: center;
+  font-family: 'Catamaran', sans-serif;
+  top: 0;
+  width: 100%;
+  height: 480px;
+  left: 0;
+}
+#watch .base {
+  /* 中央の基準 */
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 0;
+}
+#watch .base #logo {
+  position: absolute;
+  top: 0px;
+  left: -130px;
+  width: 80px;
+  height: auto;
+}
+#watch .base #option {
+  position: absolute;
+  top: 20px;
+  left: -10px;
+}
+#watch .base #option #resetButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65px;
+  height: auto;
+}
+#watch .base #option #tweetButton {
+  position: absolute;
+  top: 0px;
+  left: 85px;
+  width: 65px;
+  height: auto;
+}
+#watch .base #plate {
+  position: absolute;
+  top: 90px;
+  left: -154px;
+  width: 300px;
+  height: 240px;
+  border: solid 4px #FFF;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#watch .base #screen {
+  position: absolute;
+  top: 120px;
+  left: -140px;
+  width: 280px;
+  height: auto;
+}
+#watch .base #flame {
+  position: absolute;
+  top: 116px;
+  left: -145px;
+  width: 290px;
+  height: auto;
+}
+#watch .base #screenButton {
+  position: absolute;
+  top: 120px;
+  left: -140px;
+  width: 280px;
+  height: auto;
+}
+#watch .base #screenButton #leftScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 185px;
+}
+#watch .base #screenButton #rightScreen {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  width: 140px;
+  height: 185px;
+}
+#watch .base #watchButton {
+  position: absolute;
+  top: 350px;
+  left: 0;
+}
+#watch .base #watchButton #leftButton {
+  position: absolute;
+  top: 0;
+  left: -150px;
+  width: 64px;
+  height: auto;
+}
+#watch .base #watchButton #rightButton {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  width: 64px;
+  height: auto;
+}
+
+.base {
+  position: relative;
+  top: -10px;
+  left: 50%;
+  width: 0;
+}
+.base footer {
+  position: relative;
+  text-align: center;
+  top: 0;
+  left: -153px;
+  width: 290px;
+  height: auto;
+  color: #FFF;
+  font-size: 8px;
+  border: solid 2px #FFF;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 6px;
+}
+.base footer a {
+  color: #c6a3a5;
+  text-decoration: none;
+}
